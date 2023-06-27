@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    text-align: center;
+   background-image: url(cal.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+header{
+    background-color: black;
+    height:100px;
+}
+h1 {
+    padding-top: 20px;
+    color:rgb(125, 213, 187);
+}
+div, hr {
+    margin-bottom: 1em;
+}
+label {
+    display: inline-block;
+    width: 8em;
+}
+input, select {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+span {
+    color: red;
+}
+main{
+    margin: 0 auto;
+    width: 450px;
+    border: 3px solid black;
+    padding: 0 2em 1em;
+    display: flex;
+    display: block;
+    justify-content: right;
+    align-items: center;
+    margin-top: 40px;
+    padding-top: 30px;
+}
+#calculate
+{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: none;
+    height: 30px;
+    width: 100px;
+}
+#clear
+{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border: none;
+   height: 30px;
+   width: 100px;
+}
